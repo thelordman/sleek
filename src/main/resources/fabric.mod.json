@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "sleek",
+  "version": "${version}",
+  "name": "Sleek",
+  "description": "A highly configurable Minecraft mod that adds a little bit of everything. ",
+  "authors": [
+    "Lord",
+    "hotpocket"
+  ],
+  "contact": {
+    "homepage": "https://thelordman.github.io",
+    "sources": "https://github.com/thelordman/sleek"
+  },
+  "license": "MIT",
+  "icon": "assets/sleek/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.lord.sleek.Sleek"
+    ]
+  },
+  "mixins": [
+
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric-api": "*",
+    "minecraft": "1.19.3",
+    "java": ">=17"
+  }
+}
